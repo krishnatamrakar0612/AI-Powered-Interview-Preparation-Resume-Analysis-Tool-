@@ -13,13 +13,15 @@ const app = express();
 
 
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  process.env.CLIENT_URL,
+].filter(Boolean);
+
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://gen-ai-interview-personal-guide.vercel.app"
-    ],
-    credentials: true
+    origin: allowedOrigins,
+    credentials: true,
   })
 );
 
