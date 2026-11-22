@@ -2,7 +2,7 @@
 
 An AI-powered web application designed to help job seekers analyze their resumes, identify areas for improvement, and prepare for technical interviews through personalized AI-generated questions and feedback.
 
----
+------------------------------------------------
 
 ## 🚀 Features
 
@@ -35,7 +35,7 @@ An AI-powered web application designed to help job seekers analyze their resumes
 - View generated questions and analysis.
 - Access personalized recommendations.
 
----
+---------------------------------------------
 
 ## 🛠️ Tech Stack
 
@@ -67,7 +67,12 @@ An AI-powered web application designed to help job seekers analyze their resumes
 - Backend: Railway / Render
 - Database: MongoDB Atlas
 
----
+---------------------------------------------------
+
+Demo Link : https://careercoach-ai-xi.vercel.app
+
+----------------------------------------------------
+
 
 ## 📁 Project Structure
 
