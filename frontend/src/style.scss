@@ -1,5 +1,22 @@
 @use "./style/button.scss";
 
+:root {
+  --bg: #0b1020;
+  --bg-soft: #111832;
+  --surface: #151d3b;
+  --surface-hover: #1b2547;
+  --border: #263056;
+  --text: #e8ecff;
+  --muted: #98a2c7;
+  --primary: #6366f1;
+  --primary-hover: #7c7ff5;
+  --accent: #8b5cf6;
+  --success: #34d399;
+  --danger: #f87171;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +28,22 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
 
-  background: linear-gradient(180deg, #05140d, #081a12);
-  color: #e9f7ea;
+body {
+  background: radial-gradient(1200px 600px at 10% -10%, #1a2150 0%, transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, #2a1a55 0%, transparent 55%),
+    var(--bg);
+  color: var(--text);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--primary-hover);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
