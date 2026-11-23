@@ -64,7 +64,7 @@ An AI-powered web application designed to help job seekers analyze their resumes
 
 ### Deployment
 - Frontend: Vercel
-- Backend: Railway / Render
+- Backend: Render
 - Database: MongoDB Atlas
 
 ---------------------------------------------------
